@@ -12,8 +12,6 @@ function loadJSON(callback) {
 }
 
 window.addEventListener('load', (event) => {
-    let bookSection = document.querySelector('#allbooks');
-
     loadJSON(function(response) {
         // Parse JSON string into object
         let books = JSON.parse(response);
@@ -47,7 +45,8 @@ window.addEventListener('load', (event) => {
                 + '</p>'
                 + '</div>';
 
-            p.insertAdjacentHTML('afterend', h);
+            let bookSection = document.querySelector('#allbooks');
+            bookSection.insertAdjacentHTML('afterend', h);
         });
     });
 });
