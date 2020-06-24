@@ -45,12 +45,6 @@ window.addEventListener('load', (event) => {
                 + '<p>'
                 + description
                 + '</p>'
-                + '<p>'
-                + '詳細は<strong>'
-                + '<a href="/book-notes/book/"' + folder + '">'
-                + '私のメモ'
-                + '</a></strong>, または<a href="http://example.com/">Amazonページ</a>をご覧ください。'
-                + '</p>'
                 + '</div>';
 
             p.insertAdjacentHTML('afterend', h);
