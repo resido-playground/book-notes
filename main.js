@@ -29,7 +29,7 @@ window.addEventListener('load', (event) => {
             let h = '<div class="abook">'
                 + '<figure>'
                 + '<a href="/book-notes/book/"' + folder + '">'
-                + '<img src="image/' + img + " alt="'
+                + '<img src="image/' + img + '" alt="'
                 + title + '-' + author +'(著)">'
                 + '</a>'
                 + '</figure>'
