@@ -37,14 +37,11 @@ window.addEventListener('load', (event) => {
             // タイトル更新
             let t = document.querySelector('title');
             t.insertAdjacentHTML('afterbegin', titleAuthor);
-            //t.innerText = titleAuthor;
 
             // ヘッダ更新
             let h = '<figure>'
-                + '<img src="'
-                + ghHome + '/book-notes/image/' + img'
-                + " alt="'
-                + titleAuthor + '">'
+                + '<img src="' + ghHome + '/book-notes/image/' + img
+                + '" alt="' + titleAuthor + '">'
                 + '</figure>'
                 + '<h1>' + titleAuthor + '</h1>'
                 + '<small>'
