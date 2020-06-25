@@ -42,7 +42,7 @@ window.addEventListener('load', (event) => {
                 + '</h2>'
                 + '<p>'
                 + '<small>読んだ日: ' + dateRead
-                + 'おすすめ度: <strong>' + score + '</strong>/10</small>'
+                + ' おすすめ度: <strong>' + score + '</strong>/10</small>'
                 + '</p>'
                 + '<p>'
                 + description
