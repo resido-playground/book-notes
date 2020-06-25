@@ -41,7 +41,9 @@ window.addEventListener('load', (event) => {
 
             // ヘッダ更新
             let h = '<figure>'
-                + '<img src="' + ghHome + '/book-notes/image/天使の蝶.jpg" alt="'
+                + '<img src="'
+                + ghHome + '/book-notes/image/' + img'
+                + " alt="'
                 + titleAuthor + '">'
                 + '</figure>'
                 + '<h1>' + titleAuthor + '</h1>'
